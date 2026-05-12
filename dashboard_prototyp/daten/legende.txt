@@ -1,0 +1,51 @@
+LEGENDE – module.csv
+--------------------
+
+Erlaubte Werte pro Spalte (Groß-/Kleinschreibung beachten!)
+
+pruefungsform:
+  Klausur
+  Portfolio
+  Projektbericht
+  Fallstudie
+  Fachpraesentation
+  Seminararbeit
+  Advanced Workbook
+  Bachelorarbeit
+  Kolloquium
+
+modultyp:
+  Pflicht
+  Wahlpflicht
+
+fachbereich:
+  KI
+  Mathematik
+  Programmierung
+  Grundlagen
+  Abschluss
+
+lernstatus (leer lassen wenn Modul noch nicht gestartet):
+  BEGONNEN
+  SKRIPTBEARBEITUNG
+  AUFGABENBEARBEITUNG
+  VERINNERLICHEN
+  PRUEFUNGSBEREIT
+  ABGEGEBEN
+
+note:
+  Dezimalzahl z.B. 1.0 oder 2.3 (Punkt, kein Komma!)
+  Leer lassen wenn Modul noch nicht abgeschlossen
+
+meilenstein_datum:
+  Format: YYYY-MM-DD 
+  Leer lassen wenn noch kein Datum gesetzt
+
+benoetigt:
+  Exakter Titel des Voraussetzungsmoduls (wie in Spalte "titel")
+  Leer lassen wenn keine Voraussetzung
+
+semester:
+  Zahl von 1 bis 6
+
+Prüfungsformen die noch unbekannt sind wurden standardmäßig mit Portfolio gefüllt. Kann und sollte noch angepasst werden.
